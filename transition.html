@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation,Transition and animation practise</title>
+    <style>
+*{
+    margin: 0px;
+    paddiing: 0px;
+
+}
+.contener{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-content: center;
+    
+}
+button{
+    text-transform: uppercase;
+    /* position: fixed; */
+    height: 20vh;
+    font-size: larger;
+    width: 15vw;
+}
+button:hover{
+   
+    background-color: orange;
+}
+img{ align-self: center;
+    /* height: 333px;
+    width: 400px;
+    transform-origin: initial;
+    transform: rotate(0.6turn);
+    transform: skew(37deg);
+    transform: translate(163px, 100px);
+    transform: scale(0.5,1); */
+    height: 50vh;
+    /* width: 50vw; */
+   /* transition-property: height width;
+   transition-duration: 2s;
+   transition-timing-function: ease-in-out;
+   transition-delay: 0.1s;
+   transform-style: preserve-3d; */
+   /* transition: height 1s ease-in 0.1s; */
+   
+   
+   display: -moz-inline-box;
+   animation-name: dragon;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-delay: .1s;
+   animation-direction: normal;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 10;
+}
+/* img:hover{
+    height: 75px;
+    width:75px;
+} */
+@keyframes dragon{
+    0%{
+        height: 0px;
+    }
+    50%{
+        height: 30vh;
+    }
+    100%{
+        height: 100vh;
+    }
+
+    @media screen and (min-width: 320px) {
+        .contener button{
+            font-size: small:
+            height:20px;
+            width: 40px;
+        }
+        
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <img src="b5.webp" alt=" Their is a bokini's picture">
+        <button>Hello Guys Welcome to my page</button>
+    </div>
+    <script>
+        .btn
+    </script>
+</body>
+
+</html>
